@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script language="javascript">
+        function addCookie() {
+            var domainName = window.location.hostname;
+            document.cookie = "key=value; expires=Tue, 16 Apr 2019 11:31:56 GMT; path=/; secure; domain=." + domainName;
+        };
+    </script>
+</head>
+<body>
+    <input id="clickMe" type="button" value="clickme" onclick="addCookie();" />
+</body>
+</html>
